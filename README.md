@@ -2,6 +2,11 @@
 
 这是一个用于 Linux 持续 CPU Profiling 的 Python CLI 工具，基于 `perf`、JSONL 时间索引和 FlameGraph 渲染，适合 7x24 保存采样数据，并在故障后按时间点回溯生成火焰图。
 
+## 交付资料入口
+
+- [真实测试结果（real_test.md）](./real_test.md)：VPS 真实环境测试记录，包含测试通过率、采集执行和火焰图渲染结果。
+- [Vibe Coding 对话记录（CONVERSATION.md）](./CONVERSATION.md)：本项目从需求到交付的完整对话与实现过程记录。
+
 ## 使用前提
 
 - 运行环境需要是 Linux，并安装 `perf`。
