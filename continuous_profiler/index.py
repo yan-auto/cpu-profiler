@@ -1,0 +1,2 @@
+"""JSONL index storage."""
+
